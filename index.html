@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>NJP Technologies | Software built around your business</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="logo" href="#top" aria-label="NJP Technologies home"><span class="mark">N</span>NJP Technologies</a>
+    <button class="menu-btn" id="menuBtn" type="button" aria-expanded="false" aria-controls="links" aria-label="Open menu"><span></span><span></span><span></span></button>
+    <nav class="links" id="links" aria-label="Main">
+      <a href="#services">Services</a><a href="#products">Products</a><a href="#why">Why NJP</a><a id="navc" href="#careers">Careers</a>
+      <a class="btn btn-primary" href="#contact">Get a quote</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <div class="wrap hero">
+    <div>
+      <h1>Software built around how your business actually runs.</h1>
+      <p class="lead">NJP Technologies builds apps, websites and CRMs for growing businesses, and ships ready-to-use software for gyms, libraries, shops and schools.</p>
+      <div class="cta">
+        <a class="btn btn-primary" href="#contact">Talk to our team</a>
+        <a class="btn btn-ghost" href="#products">See our software</a>
+      </div>
+    </div>
+    <div class="app" aria-label="Product preview">
+      <div class="bar"><i></i><i></i><i></i></div>
+      <div class="tabs" role="tablist" id="tabs"></div>
+      <div class="panel" id="panel" role="tabpanel" aria-live="polite"></div>
+    </div>
+  </div>
+
+  <section id="services" class="services">
+    <div class="wrap">
+      <div class="head"><h2>What we build for you</h2><p class="lead">Tell us the problem. We design, build and support the software that solves it.</p></div>
+      <div class="svc">
+        <div><h3>Application development</h3><p>Android, iOS and web apps that are fast, easy to use and built to grow with your customers.</p></div>
+        <div><h3>Website development</h3><p>Business websites and online stores that load quickly, look sharp on any phone and bring in enquiries.</p></div>
+        <div><h3>CRM development</h3><p>Track leads, follow-ups and customers in one place, set up around your own sales process.</p></div>
+      </div>
+      <div class="custom">
+        <div><h3>Need something that doesn't exist yet?</h3><p>We create customized software solutions for the way your team works, from a single tool to a complete system.</p></div>
+        <a class="btn" href="#contact">Describe your idea</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="products">
+    <div class="wrap">
+      <div class="head"><h2>Software you can start using now</h2><p class="lead">Ready-made management software from NJP Technologies. We set it up, train your staff and adjust it to your business.</p></div>
+      <div class="prod">
+        <div class="item"><h3>Gym Management Software</h3><p>Run memberships and daily gym operations without spreadsheets.</p><ul><li>Member records and plan renewals</li><li>Attendance and check-ins</li><li>Fee collection and reminders</li></ul></div>
+        <div class="item"><h3>Library Management Software</h3><p>Keep every book, member and due date organised.</p><ul><li>Book catalogue and search</li><li>Issue, return and fine tracking</li><li>Member cards and reports</li></ul></div>
+        <div class="item"><h3>Retail Billing Software</h3><p>Fast billing and stock control for shops of any size.</p><ul><li>Quick invoicing and GST-ready bills</li><li>Stock levels and low-stock alerts</li><li>Daily sales reports</li></ul></div>
+        <div class="item"><h3>School Management Software</h3><p>One place for students, teachers, parents and fees.</p><ul><li>Admissions and student records</li><li>Attendance and exam results</li><li>Fee tracking and notices</li></ul></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="why" style="padding-top:0">
+    <div class="wrap">
+      <div class="head"><h2>Why businesses work with NJP</h2></div>
+      <div class="why">
+        <div><h3>Built for your workflow</h3><p>We start by learning how you work, then shape the software to fit, not the other way round.</p></div>
+        <div><h3>Clear communication</h3><p>You see progress at every stage and know what you are getting before we write the code.</p></div>
+        <div><h3>Support after launch</h3><p>Training, fixes and updates continue once your software is live.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="wrap cgrid">
+      <div>
+        <h2>Let's plan your software</h2>
+        <p class="lead" style="margin-top:14px">Share a few details and we will get back to you with next steps and a quote.</p>
+      </div>
+      <div>
+        <form id="form" action="https://formsubmit.co/nishant.codepie@gmail.com" method="POST">
+          <input type="hidden" name="_subject" value="New NJP Technologies enquiry">
+          <input type="hidden" name="_captcha" value="true">
+          <input type="hidden" name="_template" value="table">
+          <label>Your name<input name="name" autocomplete="name" required></label>
+          <label>Email or phone<input name="contact" autocomplete="email" required></label>
+          <label>What do you need?
+            <select name="need">
+              <option>Application development</option><option>Website development</option><option>CRM development</option>
+              <option>Gym Management Software</option><option>Library Management Software</option>
+              <option>Retail Billing Software</option><option>School Management Software</option>
+              <option>Customized software solution</option>
+            </select>
+          </label>
+          <label>Tell us more<textarea name="msg"></textarea></label>
+          <button class="btn btn-primary" type="submit">Send enquiry</button>
+        </form>
+        <p id="thanks" role="status">Thanks, your enquiry is in. We will contact you soon.</p>
+      </div>
+    </div>
+  </section>
+</main>
+<main id="careers" hidden>
+  <div class="wrap c-hero">
+    <h1>Learn IT skills. Get help landing the job.</h1>
+    <p class="lead" style="margin:22px 0 30px">NJP Technologies trains beginners and career-switchers on real projects, then supports you with resumes, interview practice and job referrals.</p>
+    <div class="cta"><a class="btn btn-primary" href="#apply">Apply for training</a><a class="btn btn-ghost" href="#tracks">View training tracks</a></div>
+    <ul class="chips"><li>Beginner friendly</li><li>Live project practice</li><li>Job assistance included</li></ul>
+  </div>
+
+  <section id="tracks">
+    <div class="wrap">
+      <div class="head"><h2>IT training tracks</h2><p class="lead">Pick the skill you want to work in. Each track is taught through hands-on projects.</p></div>
+      <div class="prod">
+        <div class="item"><h3>Full-Stack Web Development</h3><p>Build complete websites and web apps, from screens to database.</p><ul><li>HTML, CSS and JavaScript</li><li>Backend and APIs</li><li>Databases and deployment</li></ul><p class="meta">Duration: 4 months</p></div>
+        <div class="item"><h3>Mobile App Development</h3><p>Create Android apps that connect to real servers.</p><ul><li>App screens and navigation</li><li>Connecting apps to servers</li><li>Publishing to the app store</li></ul><p class="meta">Duration: 3 months</p></div>
+        <div class="item"><h3>Software Testing</h3><p>Learn how teams find and report bugs before users do.</p><ul><li>Manual testing basics</li><li>Test cases and bug reports</li><li>Introduction to automation</li></ul><p class="meta">Duration: 2 months</p></div>
+        <div class="item"><h3>Database and SQL</h3><p>Store, search and report on business data with confidence.</p><ul><li>Designing tables</li><li>Writing SQL queries</li><li>Reports from business data</li></ul><p class="meta">Duration: 6 weeks</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="assist" class="services">
+    <div class="wrap">
+      <div class="head"><h2>Job assistance that continues after training</h2><p class="lead">Learning the skill is half the work. We help you present it and find the right opening.</p></div>
+      <div class="why six">
+        <div><h3>Resume and profile building</h3><p>We help you write a clear resume and set up a professional online profile.</p></div>
+        <div><h3>Mock interviews</h3><p>Practice technical and HR interviews and get feedback after each round.</p></div>
+        <div><h3>Communication skills</h3><p>Build spoken English and confidence for interviews and the workplace.</p></div>
+        <div><h3>Portfolio of real projects</h3><p>Show employers working projects that you built during training.</p></div>
+        <div><h3>Job referrals</h3><p>We share openings and refer trained students to hiring companies.</p></div>
+        <div><h3>Support through each round</h3><p>Our team stays in touch and guides you until you get the offer.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="process">
+    <div class="wrap">
+      <div class="head"><h2>How it works</h2></div>
+      <ol class="steps">
+        <li><h3>Apply and talk to a counselor</h3><p>Tell us your background and goals. We suggest the right track.</p></li>
+        <li><h3>Learn by building</h3><p>Attend sessions and work on real projects with trainer feedback.</p></li>
+        <li><h3>Prepare for interviews</h3><p>Get your resume ready and practice with mock interviews.</p></li>
+        <li><h3>Get placed</h3><p>Apply to openings and referrals with our team beside you.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="apply" class="contact">
+    <div class="wrap cgrid">
+      <div>
+        <h2>Apply for IT training</h2>
+        <p class="lead" style="margin-top:14px">Fill in the form and our team will call you about batches, fees and the right track for you.</p>
+      </div>
+      <div>
+        <form id="form2" action="https://formsubmit.co/nishant.codepie@gmail.com" method="POST">
+          <input type="hidden" name="_subject" value="New NJP Technologies training application">
+          <input type="hidden" name="_captcha" value="true">
+          <input type="hidden" name="_template" value="table">
+          <label>Your name<input name="name" autocomplete="name" required></label>
+          <label>Phone or email<input name="contact" required></label>
+          <label>Highest qualification
+            <select name="edu"><option>12th pass</option><option>Diploma</option><option>Graduate</option><option>Post graduate</option><option>Working professional</option></select>
+          </label>
+          <label>What are you interested in?
+            <select name="track"><option>Full-Stack Web Development</option><option>Mobile App Development</option><option>Software Testing</option><option>Database and SQL</option><option>Job assistance only</option><option>Not sure yet</option></select>
+          </label>
+          <label>Anything else we should know?<textarea name="msg"></textarea></label>
+          <button class="btn btn-primary" type="submit">Apply for training</button>
+        </form>
+        <p id="thanks2" class="thanks" role="status" style="display:none;padding:18px;border-radius:12px;background:var(--tint);font-weight:500">Thanks, your application is in. Our team will call you soon.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+
+<footer><div class="wrap"><span>&copy; 2026 NJP Technologies. All rights reserved.</span><span>Application, website and CRM development, and management software.</span></div></footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
